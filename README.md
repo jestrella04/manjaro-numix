@@ -1,11 +1,11 @@
-LightDM Webkit Arch Theme
+Manjaro Numix
 ===========================
 
-This is a LightDM webkit greeter theme for Archlinux. Based on [LightDM-Webkit-MacOSX-Theme](http://github.com/Wattos/LightDM-Webkit-MacOSX-Theme)
+This is a LightDM webkit greeter theme for Manjaro Linux. Based on [LightDM Webkit Arch Theme](https://github.com/shosca/lightdm-webkit-archlinux-theme)
 
 Installation Instructions
 -------------------------
-You will need lightdm as your login manager and the lightdm-webkit-greeter from AUR. You need to make the webkit greeter the default greeter. This is done by editing the lightdm configuration under:
+You will need lightdm as your login manager and the lightdm-webkit-greeter. You need to make the webkit greeter the default greeter. This is done by editing the lightdm configuration under:
 
 <pre>
 /etc/lightdm/lightdm.conf
@@ -22,13 +22,13 @@ allow-guest=false
 The second step is to install the actual theme. This is done by copying the files of this repository into the following location:
 
 <pre>
-/usr/share/lightdm-webkit/themes/arch
+/usr/share/lightdm-webkit/themes/manjaro-numix
 </pre>
 
 Finally, change the /etc/lightdm/lightdm-webkit-greeter.conf file to contain the following line:
 
 <pre>
-webkit-theme=arch
+webkit-theme=manjaro-numix
 </pre>
 
 Now you can reboot and enjoy the new theme.

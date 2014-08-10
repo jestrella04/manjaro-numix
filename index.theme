@@ -1,6 +1,6 @@
 [theme]
-name=arch-session
-description=Archlinux logon
+name=manjaro-session
+description=Numix styled Manjaro login screen
 engine=lightdm-webkit-greeter
 url=index.html
 session=lxqt
